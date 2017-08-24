@@ -1,0 +1,140 @@
+table 
+{
+    border-spacing: 2px;
+	width:100%;
+	text-align: center;
+	box-shadow: 10px 10px 5px grey;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 10px;
+	
+}
+table tr:nth-child(even) {
+    	background-color: #eee;
+}
+table tr:nth-child(odd) {
+	background-color:#fff;
+}
+table th {
+	background-color: green;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 100%;
+}
+remark{
+    color: red;
+    text-decoration: underline;
+}
+fieldset{
+	background-color: white;
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    
+    width: 45%;
+    min-width: 30%;
+    max-width: 50%;
+    
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    z-index: 1;
+    border-radius: 10px;
+    float: left;
+}
+legend{
+    text-shadow: 1px 1px 1px grey;
+}
+.ownheader {
+    
+   background-color:#4CAF50;
+    color: white;
+    width: 100%;
+
+    max-height: 5%;
+    
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 10px 10px 5px grey;
+    
+}
+.ownheader a:link, .ownheader a:visited{
+	color:white;
+
+}
+a{
+	color: black;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+a:visited{
+	color: black;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.dropbtn:hover{
+	color: grey;
+}
+.dropbtn {
+white-space:nowrap;
+position: relative;
+    display: inline-block;
+    height: 100%;
+
+    border: none;
+    cursor: pointer;
+
+    padding: 1%;
+
+}
+#clock{
+position: relative;
+    display: inline-block;
+    height: 100%;
+	float: right;
+	padding: 1%;
+	margin-right: 5%;
+}
+.dropbtn:hover {
+    background-color:darkgreen;
+}
+.dropbtn a:link{
+
+    color: white;
+	align-content:center;
+   	  
+	padding: 10px;
+	text-decoration: none;
+    height: 48px;
+
+}
+#btc-quote{
+    float: right;
+    margin-top: 2%;
+}
+#activeTab a{
+    
+	text-shadow: 0px -10px 2px red;
+}
+
+#bot{
+    display: block;
+    float: none;
+}
+#loopForm{
+    float: right;
+}
+#statusSec{
+    background-color: green;
+    color: white;
+    text-decoration: underline;
+    font-size: 140%;
+    font-weight: bold;
+}
